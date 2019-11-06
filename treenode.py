@@ -75,17 +75,11 @@ class TreeNode:
             if (node.right is not None):
                 q.append(node.right)
         return result
-            
-
-
-
-            
+             
             
 tree = TreeNode(0)            
 a = [1,2,3,4,5,6,7]
 for x in a:
         tree.insert(x)
-
-
 
 print(tree.print_tree('bfs'))
