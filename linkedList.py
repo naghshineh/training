@@ -11,7 +11,6 @@ class LinkedList:
         if self.head is None:
             self.head = Node(data)
             return
-        
         cur = self.head
         while (cur.next):
             cur = cur.next
